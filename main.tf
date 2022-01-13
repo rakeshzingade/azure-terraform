@@ -1,6 +1,6 @@
 
 module "vnet" {
-  source  = "../../modules/networkmod"
+  source  = "modules/networkmod"
   create_resource_group         = true
   resource_group_name           = "rg-demo-useast-01"
   vnetwork_name                 = "vnet-demo-useast-001"
